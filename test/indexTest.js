@@ -37,3 +37,25 @@ describe('index.js', function () {
     });
   });
 });
+
+/* 
+function ternaryCheckCity(cityName) { // checks if cityName = NYC, returns respective responses
+  let response = (cityName === `NYC`) ? `Ok, sounds good.` : `No go.`;
+  return response;
+}
+
+function switchOnCharmFromTip(tip) {
+
+  switch(tip) {
+    case `generous`:
+      return "Thank you so much.";
+      break;
+    case 'not as generous':
+      return "Thank you.";
+      break;
+    default:
+        return "Bye.";
+  }
+
+}
+*/
